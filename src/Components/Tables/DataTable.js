@@ -19,6 +19,7 @@ class DataTable extends Component {
       .then(response => response.json())
       .then(item => {
         this.props.deleteItemFromState(id)
+        window.location.reload(false);
       })
       .catch(err => console.log(err))
     }

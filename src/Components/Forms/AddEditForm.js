@@ -61,6 +61,7 @@ class AddEditForm extends React.Component {
         } else {
           console.log('failure')
         }
+        window.location.reload(false);
       })
       .catch(err => console.log(err))
   }
@@ -90,6 +91,7 @@ class AddEditForm extends React.Component {
         } else {
           console.log('failure')
         }
+        window.location.reload(false);
       })
       .catch(err => console.log(err))
   }
